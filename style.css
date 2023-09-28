@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+ .main{
+    background: rgba(236, 237, 240, 0.837);
+    text-align: center;
+ }
+ .h1{
+    color: rgb(35, 233, 233);
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom:30px;
+    margin-top: 5px;
+ }
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    align-items: flex-end;
+
+}
+
+.container .basic:hover h2{
+    background-color: blue;
+    transition: all 0.5s;
+}
+.container .essential:hover h2{
+    background-color: blue;
+    transition: all 0.5s;
+}
+.container .premium:hover h2{
+    background-color: blue;
+    transition: all 0.5s;
+}
+
+/* .container::before,
+.container::after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+} */
+
+.container::before{
+    border-bottom: 2px solid #fff;
+
+}
+
+
+.container h2{
+    text-align: center;
+    color: silver;
+    font-style: normal;
+}
+
+.container p{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  text-align: center;
+}
+
+.container ul{
+    list-style-type: none;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main #heading{
+    color: rgb(18, 18, 18);
+    font-size: 20px;
+    padding: 30px 20px;
+    font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.basic{
+    background-color: white;
+    border-color: silver;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+
+}
+.essential{
+    background-color: white;
+    border-color: silver;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+
+}
+.premium{
+    background-color: white;
+    border-color: silver;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+
+}
+
+.btn2{
+  background-color: blue;
+  font-weight: bold;
+  border: none;
+  border-radius:25px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  margin-top: 15px;
+}
